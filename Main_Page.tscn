@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://bsxxwy2ekuyvo"]
+
+[ext_resource type="PackedScene" uid="uid://dxbfkmafl28y6" path="res://Assets/Ninja/ninja.tscn" id="1_d1fgn"]
+[ext_resource type="PackedScene" uid="uid://b23mcu5ik4nwp" path="res://Assets/Slime/Slime.tscn" id="2_i3c6o"]
+
+[node name="MainPage" type="Node2D"]
+position = Vector2(20, 17)
+
+[node name="Slime" parent="." instance=ExtResource("2_i3c6o")]
+position = Vector2(171, 39)
+
+[node name="Slime2" parent="." instance=ExtResource("2_i3c6o")]
+position = Vector2(126, -5)
+
+[node name="Slime3" parent="." instance=ExtResource("2_i3c6o")]
+position = Vector2(94, 42)
+
+[node name="Slime4" parent="." instance=ExtResource("2_i3c6o")]
+position = Vector2(58, -7)
+
+[node name="Ninja" parent="." instance=ExtResource("1_d1fgn")]
